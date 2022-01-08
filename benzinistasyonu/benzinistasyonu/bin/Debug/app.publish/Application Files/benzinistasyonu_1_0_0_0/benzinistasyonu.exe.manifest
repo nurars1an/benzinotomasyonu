@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="benzinistasyonu.exe" version="1.0.0.0" publicKeyToken="ccd8eb0c71354965" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="benzinistasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="benzinistasyonu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="benzinistasyonu.exe" size="25048">
+      <assemblyIdentity name="benzinistasyonu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3hGx95i5CJazWq1B2UmdtGWcasVXOQycWGH3hvlhTVo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="benzinistasyonu.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IFSLD1O\OEM" issuerKeyHash="b3287f97f6dcc9be58ce2403c88603135de255a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2S8UupTK0gSxxTiPVZzyYnhzuabR7gXJqKemx98lPXI=</DigestValue></Reference></SignedInfo><SignatureValue>kPmVS83A7CAfyWkLIOLXm1ix38WrGsftZ0D6JCUYCem7AxgG1JLbAdIjpLBEI1sC3vuc2tVBrAkSHg3likl5dZUh3qO2bmUqQhexQwsWiG4FZHTt54LA1MHGKUhN2H2/Dr2OwtqmYmgXJrtY/ZYYcmISaKO2TCdHmMaTy3MmijI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tVEMM8bU2/MhlYMh2XVlyiY/MPamuHcQ6lHl2IqLDARBTEPCSVCkXzDOomqsrBcVeAMNOV4PyFm+uM5wb7j6h8uEL29F2Dgch3N+AFCb0ukPr2t8X0mnij+JSU+9T8401ND4ctIrKZaxpAgGPJh+3Yyz+eETe0FgctBcpKmdVCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="723d25dfc7a6a7a8c905eed1a6b9737862f29c558f38c5b104d2ca94ba142fd9" Description="" Url=""><as:assemblyIdentity name="benzinistasyonu.exe" version="1.0.0.0" publicKeyToken="ccd8eb0c71354965" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IFSLD1O\OEM</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VbnYG9ppyPxQDiCn+D/HkUFa7acVVJBiwoOQgx4y8+k=</DigestValue></Reference></SignedInfo><SignatureValue>e/bIk0qxGtutSorxzCjC8qhT7hWtdeOr0naLL32yNavlIK3wZuAxQ685pe0t0zfbmEJkHw8tgMeSDJNHQ1LXBkp73lOiyVkciuIkQVAbq1GzOZ6wYyzUElqCzvd3/wbHC9oJ56fXOyX009fhz/1r9Eeo6xgWytR/cJu3nU4+qO4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tVEMM8bU2/MhlYMh2XVlyiY/MPamuHcQ6lHl2IqLDARBTEPCSVCkXzDOomqsrBcVeAMNOV4PyFm+uM5wb7j6h8uEL29F2Dgch3N+AFCb0ukPr2t8X0mnij+JSU+9T8401ND4ctIrKZaxpAgGPJh+3Yyz+eETe0FgctBcpKmdVCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQHK94UWWt87tIZD1NDgHCjzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAEkARgBTAEwARAAxAE8AXABPAEUATTAeFw0yMjAxMDgwOTU0MzdaFw0yMzAxMDgxNTU0MzdaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ASQBGAFMATABEADEATwBcAE8ARQBNMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1UQwzxtTb8yGVgyHZdWXKJj8w9qa4dxDqUeXYiosMBEFMQ8JJUKRfMM6iaqysFxV4Aw05Xg/IWb64znBvuPqHy4Qvb0XYOByHc34AUJvS6Q+va3xfSaeKP4lJT71PzjTU0Phy0isplrGkCAY8mH7djLP54RN7QWBy0FykqZ1UJQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADJyIHcTnhMCjCwMhZx1wnVkWgzBvVjgysN3R4e1mbB1yp4YwaNbRqtrYVfjygklIhDQE9UspFIlUlp5Lr3c27HB+Uy2xkoiz+UnIyf0y73s9WI2PBUu9FQONGaFgiZ6bj4p4dC1UtEB3ReJAKoyVL3FWpqodiLdJMJq3g77nJtc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

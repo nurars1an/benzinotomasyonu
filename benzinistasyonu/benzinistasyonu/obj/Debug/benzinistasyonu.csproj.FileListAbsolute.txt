@@ -1,0 +1,14 @@
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\bin\Debug\benzinistasyonu.exe.config
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\bin\Debug\benzinistasyonu.exe
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\bin\Debug\benzinistasyonu.pdb
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.csprojAssemblyReference.cache
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.Form1.resources
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.Properties.Resources.resources
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.csproj.GenerateResource.cache
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.csproj.CoreCompileInputs.cache
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.exe
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.pdb
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\bin\Debug\benzinistasyonu.exe.manifest
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\bin\Debug\benzinistasyonu.application
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.exe.manifest
+C:\Users\OEM\Documents\c#projem\benzinistasyonu\benzinistasyonu\obj\Debug\benzinistasyonu.application
